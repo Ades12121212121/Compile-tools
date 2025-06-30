@@ -1,0 +1,56 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Hydra."
+		],
+		"description": "Sistema anti-raid avanzado con múltiples protecciones",
+		"license": "MIT",
+		"url": "https://github.com/tu-usuario/dragonraid",
+		"generated_with": {
+			"bridge": [
+				"2.7.47"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "§6Dragon§cRaid §7v2.2",
+		"description": "§eSistema anti-raid completo: §fTNT, Speed hacks, Spam, Griefing y más protecciones avanzadas",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "31234ce5-378d-4170-ab05-590d0ccca819",
+		"version": [
+			2,
+			2,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "eee2bc86-4afc-4725-aff6-e8dba34ee94a",
+			"version": [
+				2,
+				2,
+				0
+			],
+			"entry": "scripts/antiRaid.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0"
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	]
+}
